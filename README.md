@@ -1,3 +1,5 @@
+_Archived - No longer maintained_
+
 # Genesis Starter Theme
 
 Starter theme for Genesis framework based on Genesis Sample 2.3.0.
@@ -12,7 +14,7 @@ Starter theme for Genesis framework based on Genesis Sample 2.3.0.
 4. Secondary Navigation moved from the Footer to its normal location, below the Header.
 5. [Footer Navigation Menu](https://sridharkatakam.com/footer-navigation-menu-genesis/).
 6. Mobile First CSS (except for the mobile menu section).
-7. Custom `col-1` to `col-6` classes for displaying items in 1 or 2 or 3 or 4 or 5 or 6 columns. A `col` class also needs to be added to the parent container of items.
+7. Custom `col-1` to `col-6` classes for displaying items in 1 or 2 or 3 or 4 or 5 or 6 columns. A `col` class also needs to be added to the parent container of items. See [this](https://github.com/srikat/genesis-starter/wiki/Column-Classes) wiki page for sample HTML.
 8. Blog Page Template has been removed. Archive Page Template has been renamed as Sitemap.
 9. Added Single Post Navigation.
 10. Removed all three-column content layouts.
@@ -33,6 +35,13 @@ Please visit http://my.studiopress.com/help/ for parent Genesis theme support.
 
 ### Change Log
 
-August 23, 2017
+*August 23, 2017*
 
 Initial Release.
+
+*August 24, 2017*
+
+* Added line-height for paragraphs in footer.
+* Added `hyphens: auto` for `.col`.
+* Removed unneeded top margin for mobile menu icon.
+* Changed Footer text.
